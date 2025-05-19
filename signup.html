@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Page</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        background-image: url(https://img.freepik.com/free-vector/abstract-futuristic-background_23-2148409811.jpg?semt=ais_hybrid&w=740);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        height: 500px;
+        width: 400px;
+        background-color: white;
+        border-radius: 30px;
+        position: relative;
+        /* text-align: center; */
+      }
+      .container img {
+        position: absolute;
+        top: -50px;
+        left: 30%;
+      }
+      .headingOne {
+        /* background-color: aqua; */
+        margin-top: 50px;
+        text-align: center;
+      }
+      input {
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: rgb(230, 230, 230);
+        border: none;
+      }
+       a {
+        /* margin: 10px 0px; */
+        text-decoration: none;
+    }
+      .form {
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+      } 
+      button{
+        padding: 5px;
+        /* background-color: rgb(44,84,204); */
+        background-color: rgb(255, 56, 56);
+        border-radius: 10px;
+        /* outline: none; */
+        border: none;
+        color: white;
+      }
+      /* .check{
+        display: flex;
+      } */
+       .links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+        gap: 10px;
+       }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        height="100px"
+        width="175px"
+        src="../img/ac02984952bbf2e14b007c3724fd5215-removebg-preview.png"
+        alt=""
+        
+      />
+      <h1 class="headingOne">Create Account</h1>
+      <div class="form">
+        <label for="">User Name</label>
+        <input type="text" placeholder="Enter Your Name" />
+        <label for="">User Email</label>
+        <input type="text" placeholder="Enter Your Email" />
+        <label for="">User Password</label>
+        <input type="text" placeholder="Enter Password" />
+        <!-- <div class="check">
+          <input type="checkbox" />
+          <label for="">Remember Me</label>
+        </div> -->
+
+        <button>SIGNUP</button>
+        <div class="links">
+        <!-- <a href="">Forgot password?</a> -->
+        <a href="./login.html">Already have an account?</a>
+    </div>
+      </div>
+    </div>
+  </body>
+</html>
